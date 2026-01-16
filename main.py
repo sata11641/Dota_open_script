@@ -189,7 +189,7 @@ class FastSoundDetector:
             print("="*60 + "\n")
             
             # Проверяем, не запущена ли Dota 2 уже
-            if self.is_process_running(DOTA_PROCESS_NAME):
+            if self.is_process_running("Dota 2.exe"):
                 print("[INFO] Dota 2 уже запущена! Завершаю детектор...")
                 sys.exit(0)
             

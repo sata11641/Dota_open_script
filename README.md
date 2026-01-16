@@ -91,7 +91,6 @@ for i in range(p.get_device_count()):
 ```
 Dota_open_script/
 ├── main.py              # Главный скрипт детектора
-├── check_audio.py       # Создание эталона звука
 ├── check_process.py     # Проверка процессов
 ├── config.py            # Настройки (не выкладывать!)
 ├── etalon.json          # Эталон звука (не выкладывать!)
